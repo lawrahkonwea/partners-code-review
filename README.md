@@ -19,9 +19,6 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-OPTIONAL SECTIONS:
-- FAQ
-
 After you're finished please remove all the comments and instructions!
 -->
 
@@ -55,16 +52,16 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [To-Do List App] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[To-Do list]**  This To-do list App is built using webpack and served by webpack dev server. A user can append and delete a task. built with Javascript, HTML & CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,26 +69,17 @@ After you're finished please remove all the comments and instructions!
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a>HTML</a></li>
   </ul>
-</details>
+  <ul>
+    <li><a>CSS</a></li>
+  </ul>
+  <ul>
+    <li><a>Javascript</a></li>
+  </ul>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -99,8 +87,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
+- **[Add task]**
+- **[Delete task]**
 - **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](http://localhost:8081/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,52 +113,55 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
+1.In order to run this project you need:
+Vscode must have git installed
 <!--
 Example command:
 
 ```sh
- gem install rails
+ 
 ```
  -->
 
 ### Setup
 
-Clone this repository to your desired folder:
-
+2.Clone this repository to your desired folder:
+```sh
+cd my-folder
+  git clone https://github.com/lawrahkonwea/To-Do-List-App.git
+```
 <!--
 Example commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
+
+  
+
 --->
 
 ### Install
 
 Install this project with:
-
+node modules
+```sh
+  cd my-project
+  npm install
+```
 <!--
 Example command:
 
-```sh
-  cd my-project
-  gem install
-```
+
 --->
 
 ### Usage
 
 To run the project, execute the following command:
-
+```sh
+  npm run build
+```
 <!--
 Example command:
 
-```sh
-  rails server
-```
+
 --->
 
 ### Run tests
@@ -187,7 +178,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+Push changes to a branch. Wait for the build to pass on our CI server. Tell Hubot to deploy it. Verify that the changes work and fix any problems that come up. Merge the branch into master.
 
 <!--
 Example:
@@ -207,15 +198,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/lawrahkonwea)
+- Twitter: [@twitterhandle](https://twitter.com/lawrah_xo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/amakalaurakonwea)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +211,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[local storage]**
+- [ ] **[add task]**
+- [ ] **[delete task]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -263,7 +249,7 @@ I would like to thank...
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
