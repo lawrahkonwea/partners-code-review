@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(200, 215, 255);
+  font-family: "Quicksand", sans-serif;
+  color: rgb(4, 32, 68);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.todo-header {
+  font-weight: 500;
+}
+
+.todolist-con {
+  background-color: white;
+  width: 65%;
+  padding: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list-con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+form .input {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid rgb(104, 104, 104);
+}
+
+form .input::placeholder {
+  color: rgb(102, 102, 102);
+  font-size: 1.2em;
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+form .input:focus {
+  outline: none;
+}
+
+.findInput {
+  width: 100%;
+  border: none;
+}
+
+.findInput:focus {
+  outline: none;
+}
+
+.Completedbtn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.checkbox-con {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.btn-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-items {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0 7px;
+}
+
+.toDoItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add {
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+}
